@@ -20,7 +20,7 @@ namespace StoreManager.DAL.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<OrderItem>()
-                .HasKey(oi => new {oi.ProductId, oi.OrderId});
+                .HasKey(oi => new { oi.ProductId, oi.OrderId });
 
             modelBuilder.Entity<OrderItem>()
                 .HasOne(oi => oi.Product)
@@ -36,6 +36,26 @@ namespace StoreManager.DAL.Data
                 .HasOne(p => p.Order)
                 .WithOne(o => o.Payment)
                 .HasForeignKey<Payment>(p => p.OrderId);
+
+            modelBuilder.Entity<OrderItem>()
+                .ToTable(t =>
+                {
+                    t.HasCheckConstraint("CK_OrderItem_Quantity_Positive", "[Quantity] > 0");
+                    t.HasCheckConstraint("CK_OrderItem_UnitPrice_Positive", "[UnitPrice] > 0");
+                });
+
+            modelBuilder.Entity<Payment>()
+                .ToTable(t => t.HasCheckConstraint("CK_Payment_Amount_Positive", "[Amount] > 0"));
+
+            modelBuilder.Entity<Product>()
+                .ToTable(t =>
+                {
+                    t.HasCheckConstraint("CK_Product_Price_Positive", "[Price] > 0");
+                    t.HasCheckConstraint("CK_Product_Stock_NonNegative", "[Stock] >= 0");
+                });
+
+            modelBuilder.Entity<Review>()
+                .ToTable(t => t.HasCheckConstraint("CK_Review_Rating_Range", "[Rating] >= 1 AND [Rating] <= 5"));
         }
     }
 }
