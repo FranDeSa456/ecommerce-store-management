@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreManager.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ec242856cf5874a9ca49a5e956979ff030e5d7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f22e28968c3e88b1583a5ed061c854c2a6e68b")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreManager.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreManager.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
