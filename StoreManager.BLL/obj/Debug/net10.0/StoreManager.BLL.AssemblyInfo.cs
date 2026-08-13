@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreManager.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2e34156525e35e874db83b8c97b0ed788d00aa9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55cd826d38cc6f77e722d2fda79536188a173f87")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreManager.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreManager.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
