@@ -2,7 +2,7 @@
 
 namespace StoreManager.DAL.Entities
 {
-    internal class Review
+    public class Review
     {
         public int Id { get; set; }
         public int CustomerId { get; set; }

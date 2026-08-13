@@ -2,7 +2,7 @@
 
 namespace StoreManager.DAL.Entities
 {
-    internal class Address
+    public class Address
     {
         public int Id { get; set; }
         public int CustomerId { get; set; }

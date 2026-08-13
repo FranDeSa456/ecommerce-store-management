@@ -3,7 +3,7 @@ using StoreManager.DAL.Repositories.Interfaces;
 
 namespace StoreManager.DAL.Repositories
 {
-    internal class UnitOfWork(StoreDbContext context) : IUnitOfWork
+    public class UnitOfWork(StoreDbContext context) : IUnitOfWork
     {
         private readonly StoreDbContext _context = context;
         private bool _disposed;

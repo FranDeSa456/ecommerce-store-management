@@ -1,6 +1,6 @@
 ﻿namespace StoreManager.DAL.Repositories.Interfaces
 {
-    internal interface IGenericRepository<T>
+    public interface IGenericRepository<T>
         where T : class
     {
         Task<T?> GetByIdAsync(int id, CancellationToken cancellationToken = default);

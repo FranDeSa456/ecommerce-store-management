@@ -2,7 +2,7 @@
 
 namespace StoreManager.DAL.Repositories.Interfaces
 {
-    internal interface IOrderItemRepository
+    public interface IOrderItemRepository
     {
         Task<OrderItem?> GetByIdAsync(int productId, int orderId, CancellationToken cancellationToken = default);
         Task<IReadOnlyList<OrderItem?>> GetAllAsync(CancellationToken cancellationToken = default);

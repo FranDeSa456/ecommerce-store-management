@@ -5,7 +5,7 @@ using StoreManager.DAL.Entities;
 
 namespace StoreManager.DAL.Repositories
 {
-    internal class OrderItemRepository(StoreDbContext context) : IOrderItemRepository
+    public class OrderItemRepository(StoreDbContext context) : IOrderItemRepository
     {
         private readonly DbSet<OrderItem> _dbSet = context.Set<OrderItem>();
 

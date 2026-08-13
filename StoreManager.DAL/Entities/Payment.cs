@@ -2,7 +2,7 @@
 
 namespace StoreManager.DAL.Entities
 {
-    internal class Payment
+    public class Payment
     {
         public int Id { get; set; }
         public int OrderId { get; set; }

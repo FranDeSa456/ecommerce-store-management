@@ -2,7 +2,7 @@
 
 namespace StoreManager.DAL.Entities
 {
-    internal class Category
+    public class Category
     {
         public int Id { get; set; }
         [Required]

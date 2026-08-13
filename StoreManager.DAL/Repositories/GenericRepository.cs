@@ -4,7 +4,7 @@ using StoreManager.DAL.Repositories.Interfaces;
 
 namespace StoreManager.DAL.Repositories
 {
-    internal class GenericRepository<T>(StoreDbContext context) : IGenericRepository<T>
+    public class GenericRepository<T>(StoreDbContext context) : IGenericRepository<T>
         where T : class 
     {
         private readonly DbSet<T> _dbSet = context.Set<T>();

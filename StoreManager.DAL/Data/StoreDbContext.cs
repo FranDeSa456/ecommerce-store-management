@@ -4,7 +4,7 @@ using System.Net.Sockets;
 
 namespace StoreManager.DAL.Data
 {
-    internal class StoreDbContext(DbContextOptions<StoreDbContext> options) : DbContext(options)
+    public class StoreDbContext(DbContextOptions<StoreDbContext> options) : DbContext(options)
     {
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Address> Addresses { get; set; }
