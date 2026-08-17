@@ -5,7 +5,7 @@ using StoreManager.DAL.Repositories.Interfaces;
 
 namespace StoreManager.BLL.Services
 {
-    internal class GenericService<TEntity, TModel>(IUnitOfWork unitOfWork, IGenericRepository<TEntity> repository, IMapper mapper) : IGenericService<TModel>
+    public class GenericService<TEntity, TModel>(IUnitOfWork unitOfWork, IGenericRepository<TEntity> repository, IMapper mapper) : IGenericService<TModel>
         where TEntity : class
         where TModel : class, IModelWithId
     {

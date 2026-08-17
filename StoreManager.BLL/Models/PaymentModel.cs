@@ -2,7 +2,7 @@
 
 namespace StoreManager.BLL.Models
 {
-    public class PaymentModel
+    public class PaymentModel : IModelWithId
     {
         public int Id { get; set; }
         public int OrderId { get; set; }

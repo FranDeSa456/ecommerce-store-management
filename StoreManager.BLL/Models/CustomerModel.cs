@@ -2,7 +2,7 @@
 
 namespace StoreManager.BLL.Models
 {
-    public class CustomerModel
+    public class CustomerModel : IModelWithId
     {
         public int Id { get; set; }
         [Required]

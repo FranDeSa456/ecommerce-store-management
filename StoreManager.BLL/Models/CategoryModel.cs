@@ -2,7 +2,7 @@
 
 namespace StoreManager.BLL.Models
 {
-    public class CategoryModel
+    public class CategoryModel : IModelWithId
     {
         public int Id { get; set; }
         [Required]

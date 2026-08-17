@@ -2,7 +2,7 @@
 
 namespace StoreManager.BLL.Models
 {
-    public class ReviewModel
+    public class ReviewModel : IModelWithId
     {
         public int Id { get; set; }
         public int CustomerId { get; set; }
