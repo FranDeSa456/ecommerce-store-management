@@ -1,4 +1,3 @@
-using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 using StoreManager.BLL.Models;

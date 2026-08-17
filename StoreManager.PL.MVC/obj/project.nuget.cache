@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ovtoIgDOoZI=",
+  "dgSpecHash": "pAzRKPXnVVc=",
   "success": true,
   "projectFilePath": "C:\\Workspace\\ecommerce-store-management\\StoreManager.PL.MVC\\StoreManager.PL.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dsfra\\.nuget\\packages\\automapper\\16.2.0\\automapper.16.2.0.nupkg.sha512",
     "C:\\Users\\dsfra\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\dsfra\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
-    "C:\\Users\\dsfra\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
     "C:\\Users\\dsfra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\dsfra\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",
     "C:\\Users\\dsfra\\.nuget\\packages\\microsoft.data.sqlclient\\6.1.1\\microsoft.data.sqlclient.6.1.1.nupkg.sha512",
@@ -33,18 +32,5 @@
     "C:\\Users\\dsfra\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\dsfra\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Workspace\\ecommerce-store-management\\StoreManager.PL.MVC\\StoreManager.PL.MVC.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Workspace\\ecommerce-store-management\\StoreManager.PL.MVC\\StoreManager.PL.MVC.csproj",
-      "libraryId": "EntityFramework",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }
