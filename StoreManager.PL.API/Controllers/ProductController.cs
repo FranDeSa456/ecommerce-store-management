@@ -50,7 +50,7 @@ namespace StoreManager.PL.API.Controllers
         {
             if (model.Id != id)
             {
-                return BadRequest($"Route id and body id: {model} must match");
+                return BadRequest($"Route id and body id must match");
             }
             var updated = await _productService.UpdateAsync(model, cancellationToken);
             if (!updated)
