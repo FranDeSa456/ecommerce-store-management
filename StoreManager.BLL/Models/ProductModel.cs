@@ -9,7 +9,6 @@ namespace StoreManager.BLL.Models
         [Required]
         [MaxLength(100)]
         public string Name { get; set; } = string.Empty;
-        [Precision(18, 2)]
         public decimal Price { get; set; }
         public int Stock { get; set; }
         public int CategoryId { get; set; }

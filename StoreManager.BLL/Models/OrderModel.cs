@@ -11,6 +11,6 @@ namespace StoreManager.BLL.Models
         [MaxLength(50)]
         public string Status { get; set; } = string.Empty;
         public List<OrderItemModel> OrderItems { get; set; } = [];
-        public PaymentModel? Payment { get; set; } = null!;
+        public PaymentModel Payment { get; set; } = null!;
     }
 }

@@ -7,7 +7,6 @@ namespace StoreManager.BLL.Models
     {
         public int Id { get; set; }
         public int OrderId { get; set; }
-        [Precision(18, 2)]
         public decimal Amount { get; set; }
         public DateOnly PaymentDate { get; set; }
         [Required]

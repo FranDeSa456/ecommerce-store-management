@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StoreManager.DAL.Entities;
-using System.Net.Sockets;
 
 namespace StoreManager.DAL.Data
 {
