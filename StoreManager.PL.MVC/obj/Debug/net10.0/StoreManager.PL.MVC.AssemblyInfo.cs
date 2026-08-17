@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreManager.PL.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92e7709e78a25d09bc5c433cd1608a34baf674d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df9b2aaa3d36a50d55551271fd24255d50f682b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreManager.PL.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreManager.PL.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

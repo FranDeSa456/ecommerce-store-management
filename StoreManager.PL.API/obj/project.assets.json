@@ -1109,6 +1109,20 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "StoreManager.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AutoMapper": "16.2.0",
+          "StoreManager.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StoreManager.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreManager.BLL.dll": {}
+        }
+      },
       "StoreManager.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -3256,6 +3270,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "StoreManager.BLL/1.0.0": {
+      "type": "project",
+      "path": "../StoreManager.BLL/StoreManager.BLL.csproj",
+      "msbuildProject": "../StoreManager.BLL/StoreManager.BLL.csproj"
+    },
     "StoreManager.DAL/1.0.0": {
       "type": "project",
       "path": "../StoreManager.DAL/StoreManager.DAL.csproj",
@@ -3268,6 +3287,7 @@
       "Microsoft.AspNetCore.OpenApi >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
       "Scalar.AspNetCore >= 2.16.18",
+      "StoreManager.BLL >= 1.0.0",
       "StoreManager.DAL >= 1.0.0"
     ]
   },
@@ -3304,6 +3324,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "C:\\Workspace\\ecommerce-store-management\\StoreManager.BLL\\StoreManager.BLL.csproj": {
+              "projectPath": "C:\\Workspace\\ecommerce-store-management\\StoreManager.BLL\\StoreManager.BLL.csproj"
+            },
             "C:\\Workspace\\ecommerce-store-management\\StoreManager.DAL\\StoreManager.DAL.csproj": {
               "projectPath": "C:\\Workspace\\ecommerce-store-management\\StoreManager.DAL\\StoreManager.DAL.csproj"
             }
@@ -3320,7 +3343,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
@@ -3365,7 +3388,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
