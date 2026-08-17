@@ -9,6 +9,7 @@ namespace StoreManager.DAL.Entities
         public Customer Customer { get; set; } = null!;
         public DateOnly OrderDate { get; set; }
         [Required]
+        [MaxLength(50)]
         public string Status { get; set; } = string.Empty;
         public ICollection<OrderItem> OrderItems { get; set; } = [];
         public Payment Payment { get; set; } = null!;
